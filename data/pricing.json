@@ -1,0 +1,33 @@
+{
+  "_note": "SAMPLE prices (USD, approximate, Linux, US regions) for learning purposes. Verify against official pricing calculators before real use.",
+  "reserved_discount": {"on_demand": 0.0, "reserved_1y": 0.35, "reserved_3y": 0.58, "spot": 0.65},
+  "providers": {
+    "AWS": {
+      "instances": [
+        {"name": "t3.medium",  "vcpu": 2,  "ram_gb": 4,  "hourly": 0.0416},
+        {"name": "m5.large",   "vcpu": 2,  "ram_gb": 8,  "hourly": 0.096},
+        {"name": "m5.xlarge",  "vcpu": 4,  "ram_gb": 16, "hourly": 0.192},
+        {"name": "m5.2xlarge", "vcpu": 8,  "ram_gb": 32, "hourly": 0.384}
+      ],
+      "block_gb_month": 0.08, "object_gb_month": 0.023, "egress_gb": 0.09, "db_gb_month": 0.115
+    },
+    "Azure": {
+      "instances": [
+        {"name": "B2s",   "vcpu": 2, "ram_gb": 4,  "hourly": 0.0416},
+        {"name": "D2s_v3","vcpu": 2, "ram_gb": 8,  "hourly": 0.096},
+        {"name": "D4s_v3","vcpu": 4, "ram_gb": 16, "hourly": 0.192},
+        {"name": "D8s_v3","vcpu": 8, "ram_gb": 32, "hourly": 0.384}
+      ],
+      "block_gb_month": 0.075, "object_gb_month": 0.018, "egress_gb": 0.087, "db_gb_month": 0.12
+    },
+    "GCP": {
+      "instances": [
+        {"name": "e2-medium",     "vcpu": 2, "ram_gb": 4,  "hourly": 0.0335},
+        {"name": "e2-standard-2", "vcpu": 2, "ram_gb": 8,  "hourly": 0.067},
+        {"name": "e2-standard-4", "vcpu": 4, "ram_gb": 16, "hourly": 0.134},
+        {"name": "e2-standard-8", "vcpu": 8, "ram_gb": 32, "hourly": 0.268}
+      ],
+      "block_gb_month": 0.10, "object_gb_month": 0.020, "egress_gb": 0.12, "db_gb_month": 0.17
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ShopNest",
+  "description": "A growing online shopping start-up moving its web store from on-premises servers to the cloud.",
+  "workload": {"vm_count": 4, "vcpu_per_vm": 4, "ram_gb_per_vm": 16, "hours_per_month": 730,
+               "block_storage_gb": 400, "object_storage_gb": 2000, "db_storage_gb": 250, "egress_gb": 1500}
+}

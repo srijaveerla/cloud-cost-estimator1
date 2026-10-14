@@ -1,0 +1,9 @@
+name,type,env,vcpu,avg_cpu_pct,monthly_cost,uptime_pct
+web-prod-1,vm,prod,4,62,96.0,100
+web-prod-2,vm,prod,4,58,96.0,100
+api-prod,vm,prod,8,14,190.0,100
+worker-batch,vm,prod,4,9,96.0,100
+web-dev,vm,dev,2,7,48.0,100
+api-test,vm,test,4,11,96.0,100
+old-demo-vm,vm,dev,2,1,48.0,100
+cache-prod,vm,prod,4,71,96.0,100
